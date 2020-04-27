@@ -10,12 +10,8 @@ import (
 
 // LogoSmall K9s small log.
 var LogoSmall = []string{
-	` ____  __.________       `,
-	`|    |/ _/   __   \______`,
-	`|      < \____    /  ___/`,
-	`|    |  \   /    /\___ \ `,
-	`|____|__ \ /____//____  >`,
-	`        \/            \/ `,
+	` D2iQ              `,
+	` Kubernetes Terminal`,
 }
 
 // LogoBig K9s big logo for splash page.

@@ -6,6 +6,7 @@ require (
 	github.com/atotto/clipboard v0.1.2
 	github.com/derailed/popeye v0.8.1
 	github.com/derailed/tview v0.3.10
+	github.com/docker/go-metrics v0.0.1 // indirect
 	github.com/drone/envsubst v1.0.2 // indirect
 	github.com/fatih/color v1.9.0
 	github.com/fsnotify/fsnotify v1.4.7
@@ -26,6 +27,7 @@ require (
 	golang.org/x/text v0.3.2
 	gopkg.in/yaml.v2 v2.2.8
 	helm.sh/helm/v3 v3.2.0
+	honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc // indirect
 	k8s.io/api v0.18.2
 	k8s.io/apimachinery v0.18.2
 	k8s.io/cli-runtime v0.18.2
@@ -36,3 +38,5 @@ require (
 	sigs.k8s.io/yaml v1.2.0
 	vbom.ml/util v0.0.0-20180919145318-efcd4e0f9787
 )
+
+replace github.com/derailed/k9s => /Users/michael/k9s-d2iq/k9s
